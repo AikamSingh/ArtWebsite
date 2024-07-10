@@ -75,3 +75,9 @@
     padding-top: 30px;
     padding-left: 10px;
   }
+
+  .linkedinimg{
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+  }
