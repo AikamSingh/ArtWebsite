@@ -1,9 +1,10 @@
   .home-paralax{
     /* The image used */
-    background-image: url("https://cdn.discordapp.com/attachments/599361830116392960/1260653966384169052/placeholder.jpeg?ex=66901aff&is=668ec97f&hm=2c9aa2384b56bae1708a8733e0b09e0d37996528e45ce559c54a2bcb9baf58c1&");
+    background-image: url("assets/updated_parthenon.jpg");
   
     /* Set a specific height */
-    min-height: 700px; 
+    min-height: 80vh;
+    max-width:100%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
