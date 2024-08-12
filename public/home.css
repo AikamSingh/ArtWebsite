@@ -12,10 +12,25 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .home-banner{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .home-banner p{
+    padding-top: 45vh;
+    padding-right: 1vw;
+    padding-bottom: 2vh;
+    color:white;
+    text-align: right;
+    font-size: 2vw;
+  }
   
   .home-banner h2{
     text-align: center;
-    font-size: 6vh;
+    font-size: 8vh;
     padding-top: 100px;
     padding-bottom: 100px;
     color: white;
