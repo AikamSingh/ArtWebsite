@@ -83,8 +83,23 @@
     font-style: normal;
 }
 
+.dropdown-content p {
+  color: white;
+  padding: 1vw;
+  text-decoration: none;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 10%;
+  font-weight: 100;
+  font-style: normal;
+}
+
 .dropdown-content a:hover {
     background-color: #575757;
+}
+
+.dropdown-content p:hover {
+  background-color: #575757;
 }
 
 .navlinks li:hover .dropdown-content {
