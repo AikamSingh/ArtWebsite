@@ -21,10 +21,36 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
 .gallery-body img {
   width: 100%;
   height: auto;
-  border: 2px solid #333;
+  display: block;
+  cursor: pointer;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  white-space: nowrap;
+  z-index: 10;
+  text-align: center;
+}
+
+.image-container:hover .modal {
+  display: block;
 }
 
 .header{
