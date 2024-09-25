@@ -16,6 +16,8 @@ body {
 
 .gallerycontainer {
   margin-top:2vh;
+  margin-left:2vw;
+  margin-right:2vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
